@@ -1,0 +1,10 @@
+fun echo(n)
+{
+    print n;
+    return n;
+}
+
+//print echo(3) - echo(2) - echo(1);
+//print (echo(3) - echo(2)) - echo(1);
+
+print echo(1) + echo(2)*echo(3) - echo(4)/-echo(5);

@@ -1,0 +1,17 @@
+var a = "global";
+
+{
+  var b = "local1";
+  var c = "local2";
+
+  print b;
+
+  fun foo(x)
+  {
+    var d = "function ";
+    var e = "function2";
+    print d;
+  }
+
+  foo(b);
+}

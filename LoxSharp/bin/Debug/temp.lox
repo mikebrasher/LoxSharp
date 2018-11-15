@@ -1,0 +1,5 @@
+a = "foo" /* here's a
+multi
+line
+comment*/;
+b = "unterminated";

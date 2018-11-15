@@ -1,0 +1,6 @@
+F:\Git\craftinginterpreters\LoxSharp\LoxSharp\obj\Debug\LoxSharp.csprojResolveAssemblyReference.cache
+F:\Git\craftinginterpreters\LoxSharp\LoxSharp\bin\Debug\cslox.exe.config
+F:\Git\craftinginterpreters\LoxSharp\LoxSharp\bin\Debug\cslox.exe
+F:\Git\craftinginterpreters\LoxSharp\LoxSharp\bin\Debug\cslox.pdb
+F:\Git\craftinginterpreters\LoxSharp\LoxSharp\obj\Debug\cslox.exe
+F:\Git\craftinginterpreters\LoxSharp\LoxSharp\obj\Debug\cslox.pdb

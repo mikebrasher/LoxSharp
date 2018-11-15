@@ -1,0 +1,16 @@
+fun fibonacci(n)
+{
+    if (n <= 1)
+    {
+        return n;
+    }
+    else
+    {
+        return fibonacci(n-2) + fibonacci(n-1);
+    }
+}
+
+for (var ii = 0; ii < 20; ii = ii + 1)
+{
+    print fibonacci(ii);
+}

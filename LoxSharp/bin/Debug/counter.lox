@@ -1,0 +1,27 @@
+fun makeCounter()
+{
+  var i = 0;
+
+  fun count()
+  {
+    i = i + 1;
+    print i;
+  }
+
+  return count;
+}
+
+// makeCounter returns the function count
+// and stores in the function variable counter.
+// The closure environment (containing i) is saved
+// with the returned function and it can be incremented
+// each function returned by counter has its own closure
+
+var counter = makeCounter();
+counter(); // "1"
+counter(); // "2"
+
+var counter2 = makeCounter();
+counter2(); // "1"
+
+counter(); // "3"

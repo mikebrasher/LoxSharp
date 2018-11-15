@@ -1,0 +1,28 @@
+class Doughnut
+{
+  cook()
+  {
+    //super.cook(); //should throw static resolver error
+    print "Fry until golden brown.";
+  }
+
+  eat()
+  {
+    print "Delicious!";
+  }
+}
+
+class BostonCream < Doughnut
+{
+  cook()
+  {
+    super.cook();
+    print "Pipe full of custard and coat with chocolate.";
+  }
+}
+
+var bc = BostonCream();
+bc.cook();
+bc.eat();
+
+// super.cook(); //should throw static resolver error
